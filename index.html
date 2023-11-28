@@ -2,8 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="style.css" />
     <title>Form Page</title>
   </head>
   <body>
@@ -15,9 +19,56 @@
 
       <form>
         <fieldset>
-            <legend>
-                Event Information
-            </legend>
+          <!-- new tag i have learned, fieldset and legend. tags that are meant to use
+            when working with forms. Fieldset is use to group several 
+            controls as well as labels (<label>) within a web form. 
+            Legend comes with a border that we can removeit using CSS -->
+          <legend>Event Information</legend>
+
+          <div class="input-wrapper">
+            <label for="event-title">Event title <span>(minimum 8 caracters)</span></label>
+            <input
+              type="text"
+              id="event-title"
+              name="event-title" />
+
+            <label for="event-link">Event link <span>(start with https://)</span></label>
+            <input
+              type="link"
+              id="event-link"
+              name="event-link" />
+
+            <label for="num">Phone number <span>(only numbers)</span></label>
+            <input
+              type="number"
+              id="num"
+              name="num"
+              required />
+
+            <label for="info">More informations</label>
+            <textarea
+              name="info"
+              id="info"
+              cols="30"
+              rows="10"></textarea>
+
+            <label for="category">Category</label>
+            <select
+              required
+              name="category"
+              id="category">
+              <option
+                value=""
+                disabled
+                selected
+                hidden>
+                Event type
+              </option>
+              <option value="live">Live</option>
+              <option value="podcast">Podcast</option>
+              <option value="party">Party</option>
+            </select>
+          </div>
         </fieldset>
       </form>
     </div>
