@@ -4,8 +4,7 @@ A simple form created to practice and learn about forms and how we should struct
 
 # 🚀 Tecnologies
 
-- HTML - CSS
-- Git e Github
+[![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
 
 # 💻 Usage
 
