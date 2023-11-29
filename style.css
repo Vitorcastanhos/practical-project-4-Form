@@ -15,9 +15,10 @@ button {
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color: #d1cccc;
 }
 
+/* parte onde colocamos a cor do background atrás do formulário */
 body::before {
   content: "";
   position: absolute;
@@ -25,7 +26,7 @@ body::before {
   left: 0;
   width: 100%;
   height: 368px;
-  background-color: #121214;
+  background-color: #13914b;
   z-index: -1;
 }
 
