@@ -10,6 +10,7 @@ A simple form created to practice and learn about forms and how we should struct
 # 💻 Usage
 
 1. You can just open the project using the link from Git Hub.
+2. https://vitorcastanhos.github.io/Form-page/
 
 
 # Customization
